@@ -9,8 +9,7 @@ def setup():
     s.vertex(50, 50)
     s.vertex(50, 0)
     s.endShape(CLOSE)
-    fill(255. 0, 0)
-
+    fill(255, 0, 0)
 def draw():
     rect (200, 100, 80, 58)
     shape(s, 25, 25)
