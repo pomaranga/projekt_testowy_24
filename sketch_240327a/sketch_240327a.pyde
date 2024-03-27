@@ -1,5 +1,6 @@
 def setup():
     size(400,400)
+    fill(255. 0, 0)
     s = createShape():
     s.beginShape():
     s.fill(0, 0, 255):
