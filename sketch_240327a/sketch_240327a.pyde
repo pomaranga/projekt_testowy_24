@@ -13,6 +13,7 @@ def draw():
     s.endShape(CLOSE)
     fill(255, 0, 0)
     rect (200, 100, 80, 58)
+    rect (300, 100, 65, 65)
     fill(100, 200, 190)
     shape(s, 25, 25);
 	text("text", width/2-30, height/2)
