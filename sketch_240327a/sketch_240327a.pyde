@@ -14,4 +14,5 @@ def draw():
     rect (200, 100, 80, 58)
     fill(100, 200, 190)
     shape(s, 25, 25);
+	text("text", width/2-30, height/2)
     background(152,190,100)
