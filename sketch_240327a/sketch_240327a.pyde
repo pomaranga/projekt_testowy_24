@@ -18,3 +18,6 @@ def draw():
     shape(s, 25, 25);
 	text("text", width/2-30, height/2-30)
     stroke(255, 0, 0)
+    fill(255, 0, 0)
+    rect (20, 10, 80, 50)
+
