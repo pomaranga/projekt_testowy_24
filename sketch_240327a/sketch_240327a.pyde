@@ -1,7 +1,7 @@
 def setup():
     size(400,400)
 def draw():
-    s = createShape()
+    global s = createShape()
     s.beginShape()
     s.fill(0, 0, 255)
     s.stroke(255, 0, 0)
