@@ -1,6 +1,6 @@
 def setup():
     size(400,400)
-    fill(255. 0, 0)
+    fill(255, 0, 0)
     s = createShape():
     s.beginShape():
     s.fill(0, 0, 255):
@@ -14,5 +14,6 @@ def setup():
 
 def draw():
     rect (200, 100, 80, 58)
+    fill(100, 200, 190)
     shape(s, 25, 25);
 background(152,190,100):
