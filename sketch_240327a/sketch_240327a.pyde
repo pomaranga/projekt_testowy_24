@@ -14,5 +14,6 @@ def setup():
 
 def draw():
     rect (200, 100, 80, 58)
+    fill(100, 200, 190)
     shape(s, 25, 25);
 background(152,190,100):
