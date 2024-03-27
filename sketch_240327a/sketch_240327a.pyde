@@ -1,8 +1,7 @@
 def setup():
     size(400,400)
 def draw():
-    background(152,190,100)
-	global s = createShape()
+    global s = createShape()
     s.beginShape()
     s.fill(0, 0, 255)
     s.stroke(255, 0, 0)
@@ -16,3 +15,5 @@ def draw():
     fill(100, 200, 190)
     shape(s, 25, 25);
 	text("text", width/2-30, height/2)
+    background(152,190,100)
+    stroke(255, 0, 0)
