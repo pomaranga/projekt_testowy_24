@@ -3,7 +3,5 @@ def setup():
     pass
 
 def draw():
-	rect (100, 100, 50, 50)  #Filip M.
+rect (200, 100, 80, 58)
     pass
-	
-	test123
