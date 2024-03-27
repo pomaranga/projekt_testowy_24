@@ -1,6 +1,18 @@
 def setup():
     size(400,400)
+    fill(255, 0, 0)
+    s = createShape():
+    s.beginShape():
+    s.fill(0, 0, 255):
+    s.stroke():
+    s.vertex(0, 0):
+    s.vertex(0, 50):
+    s.vertex(50, 50):
+    s.vertex(50, 0):
+    s.endShape():
+    CLOSE
 
 def draw():
-    fill(150,200,50)
-	rect (200, 100, 80, 58)
+    rect (200, 100, 80, 58)
+    shape(s, 25, 25);
+background(152,190,100):
