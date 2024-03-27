@@ -16,3 +16,4 @@ def draw():
     shape(s, 25, 25);
 	text("text", width/2-30, height/2)
     background(152,190,100)
+    stroke(255, 0, 0)
